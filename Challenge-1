@@ -1,0 +1,15 @@
+Challenge 1
+
+Create a function that takes an array of numbers and returns an array of only the odd numbers.  The function must not use looping or libraries that use looping (e.g. no user of "filter").
+
+
+
+function oddsOnly(arr){
+    let results = [];
+    for (i = 0; i < arr.length; i++){
+        if (!arr[i] % 2 === 0){
+            results.push(arr[i]);
+        }
+    }
+    return results;
+}
